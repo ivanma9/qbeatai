@@ -1,0 +1,14 @@
+# Email Configuration
+# Use your Gmail account with an app-specific password
+EMAIL_USER=your-gmail@gmail.com
+EMAIL_PASS=your-app-password
+EMAIL_TO=orders@chaupain.com
+
+# Instructions:
+# 1. Copy this file to .env.local
+# 2. Replace the values with your actual email credentials
+# 3. For Gmail, you'll need to generate an app-specific password:
+#    - Go to Google Account settings
+#    - Enable 2-factor authentication
+#    - Generate an app password for "Mail"
+#    - Use that password (not your regular password)
