@@ -1,0 +1,421 @@
+[2025-09-25 18:36:35] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-25 18:36:35] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-25 18:43:49] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-25 18:43:49] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-25 18:44:21] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-25 18:44:21] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-25 18:44:21] [INFO] qbeatai_agent: Adding item to cart: La Tartine, quantity: 1, addons: []
+[2025-09-25 18:44:21] [INFO] qbeatai_agent: Created cart item: La Tartine x1 = $8.00
+[2025-09-25 18:44:21] [WARNING] qbeatai_agent: Cart sync failed: None/api/sync-voice-cart
+Traceback (most recent call last):
+  File "/Users/ivanma/Desktop/qbeatai/voice-agent/agent.py", line 232, in sync_cart
+    await session.post(
+    ...<2 lines>...
+    )
+  File "/Users/ivanma/Desktop/qbeatai/voice-agent/venv/lib/python3.13/site-packages/aiohttp/client.py", line 637, in _request
+    raise err_exc_cls(url)
+aiohttp.client_exceptions.InvalidUrlClientError: None/api/sync-voice-cart
+[2025-09-25 18:44:21] [INFO] qbeatai_agent: Cart add successful: Added 1 La Tartine for $8.00. What else?
+[2025-09-25 18:44:21] [INFO] qbeatai_agent: Getting menu info - section: breakfast, item_name: None
+[2025-09-25 18:44:21] [INFO] qbeatai_agent: Provided breakfast menu info with 3 items
+[2025-09-26 00:11:12] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-26 00:11:12] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-27 00:28:43] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-27 00:28:43] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-27 00:29:12] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-27 00:29:12] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-27 00:42:20] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-27 00:42:20] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-29 17:21:09] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-29 17:21:09] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-29 22:53:36] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-29 22:53:36] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-29 22:54:38] [INFO] qbeatai_agent: Adding item to cart: Sunrise Croissant, quantity: 1, addons: None
+[2025-09-29 22:54:38] [INFO] qbeatai_agent: Created cart item: Sunrise Croissant x1 = $12.00
+[2025-09-29 22:54:38] [INFO] qbeatai_agent: Cart sync successful
+[2025-09-29 22:54:38] [INFO] qbeatai_agent: Cart add successful: Added 1 Sunrise Croissant for $12.00. What else?
+[2025-09-29 22:54:59] [INFO] qbeatai_agent: Finalizing order
+[2025-09-29 22:54:59] [INFO] qbeatai_agent: Order totals - Subtotal: $12.00, Tax: $1.17, Final: $13.17
+[2025-09-29 22:54:59] [INFO] qbeatai_agent: Cart contents: 1 items: ['Sunrise Croissant']
+[2025-09-29 22:54:59] [INFO] qbeatai_agent: Submitting order to backend
+[2025-09-29 22:54:59] [INFO] qbeatai_agent: Submitting order to: http://localhost:3000
+[2025-09-29 22:54:59] [INFO] qbeatai_agent: Order data: 1 items, total: $13.17
+[2025-09-29 22:54:59] [INFO] qbeatai_agent: Order submission response status: 500
+[2025-09-29 22:54:59] [INFO] qbeatai_agent: Order submitted successfully
+[2025-09-29 22:54:59] [INFO] qbeatai_agent: Order finalized successfully: Perfect! Your order total is $13.17. We'll have it ready in 10-15 minutes. Thank you!
+[2025-09-30 00:20:05] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 00:20:05] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 09:39:55] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 09:39:55] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 09:39:55] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 09:39:56] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: greeting → agent_listening
+[2025-09-30 09:39:58] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:40:03] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:40:03] [INFO] qbeatai_agent: TRANSCRIPT [AGENT] Session started - greeting sent
+[2025-09-30 09:40:09] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] breakfast.
+[2025-09-30 09:40:12] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:40:22] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:40:28] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] The Sunrise Crescent
+[2025-09-30 09:40:33] [INFO] qbeatai_agent: Getting menu info - section: breakfast, item_name: Sunrise Crescent
+[2025-09-30 09:40:33] [WARNING] qbeatai_agent: Item not found for menu info: Sunrise Crescent
+[2025-09-30 09:40:34] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:40:40] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:40:46] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] The Sunrise Croissant
+[2025-09-30 09:40:47] [INFO] qbeatai_agent: Getting menu info - section: breakfast, item_name: Sunrise Croissant
+[2025-09-30 09:40:47] [INFO] qbeatai_agent: Found item info: Sunrise Croissant in breakfast
+[2025-09-30 09:40:50] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:40:56] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:41:06] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Keech Luray
+[2025-09-30 09:41:07] [INFO] qbeatai_agent: Getting menu info - section: breakfast, item_name: Keech Luray
+[2025-09-30 09:41:07] [WARNING] qbeatai_agent: Item not found for menu info: Keech Luray
+[2025-09-30 09:41:08] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:41:13] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:41:22] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] .
+[2025-09-30 09:41:23] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:41:25] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Sure.
+[2025-09-30 09:41:25] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:41:26] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:41:30] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:41:33] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] the lunch menu.
+[2025-09-30 09:41:35] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:41:45] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:41:52] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Uh, yeah, I'll get the suit.
+[2025-09-30 09:41:53] [INFO] qbeatai_agent: Getting menu info - section: lunch, item_name: Tomato Basil Soup
+[2025-09-30 09:41:53] [WARNING] qbeatai_agent: Item not found for menu info: Tomato Basil Soup
+[2025-09-30 09:41:55] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:42:02] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:42:10] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Um...
+[2025-09-30 09:42:11] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Why'd you have trouble?
+[2025-09-30 09:42:11] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:42:13] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:42:15] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] accessing the suit.
+[2025-09-30 09:42:19] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:42:27] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:42:32] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] No
+[2025-09-30 09:42:33] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] I'm good. Thank you
+[2025-09-30 09:42:36] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:42:40] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:44:01] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Goodbye.
+[2025-09-30 09:44:02] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:44:03] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:48:59] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 09:48:59] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 09:48:59] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 09:48:59] [WARNING] qbeatai_agent: No menu item found for: 'pizza'
+[2025-09-30 09:48:59] [WARNING] qbeatai_agent: No menu item found for: 'burger'
+[2025-09-30 09:49:17] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 09:49:17] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 09:49:17] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 09:49:17] [WARNING] qbeatai_agent: No menu item found for: 'pizza'
+[2025-09-30 09:49:17] [WARNING] qbeatai_agent: No menu item found for: 'burger'
+[2025-09-30 09:50:12] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 09:50:12] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 09:50:12] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 09:50:13] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: greeting → agent_listening
+[2025-09-30 09:50:15] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:50:18] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:50:19] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Thank you.
+[2025-09-30 09:50:19] [INFO] qbeatai_agent: TRANSCRIPT [AGENT] Session started - greeting sent
+[2025-09-30 09:50:21] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:50:21] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:50:25] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] All right
+[2025-09-30 09:50:26] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Can I order a breakfast?
+[2025-09-30 09:50:28] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:50:41] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:50:45] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Uh, yeah, I'll get the omelet.
+[2025-09-30 09:50:47] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:50:57] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:51:01] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Nyah.
+[2025-09-30 09:51:03] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:51:09] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:51:14] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Uh, no.
+[2025-09-30 09:51:16] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:51:19] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:51:25] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Yeah, could I get a
+[2025-09-30 09:51:27] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:51:27] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] a sunrise croissant
+[2025-09-30 09:51:27] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:51:29] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:51:35] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:51:39] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Nah.
+[2025-09-30 09:51:40] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 09:51:45] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:51:50] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Yeah.
+[2025-09-30 09:51:51] [INFO] qbeatai_agent: Adding item to cart: Sunrise Croissant, quantity: 1, addons: None
+[2025-09-30 09:51:51] [INFO] qbeatai_agent: Created cart item: Sunrise Croissant x1 = $12.00
+[2025-09-30 09:51:52] [INFO] qbeatai_agent: Cart sync successful
+[2025-09-30 09:51:52] [INFO] qbeatai_agent: Cart add successful: Added 1 Sunrise Croissant for $12.00. What else?
+[2025-09-30 09:51:52] [INFO] qbeatai_agent: TRANSCRIPT [AGENT] Added 1 Sunrise Croissant for $12.00. What else?
+[2025-09-30 09:51:52] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → adding_items
+[2025-09-30 09:51:53] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: adding_items → agent_speaking
+[2025-09-30 09:51:57] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 09:52:06] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] That'll be all.
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Finalizing order
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Order totals - Subtotal: $12.00, Tax: $1.17, Final: $13.17
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Cart contents: 1 items: ['Sunrise Croissant']
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Submitting order to backend
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Submitting order to: http://localhost:3000
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Order data: 1 items, total: $13.17
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Order submission response status: 500
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Order submitted successfully
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Notifying frontend of order completion
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Order completion notification sent
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Order finalized successfully: Perfect! Your order total is $13.17. We'll have it ready in 10-15 minutes. Your order has been confirmed and this call will now end. Thank you for choosing QBeatAI!
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: TRANSCRIPT [AGENT] Perfect! Your order total is $13.17. We'll have it ready in 10-15 minutes. Your order has been confirmed and this call will now end. Thank you for choosing QBeatAI!
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → order_completed
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: 
+=== CONVERSATION SUMMARY ===
+Duration: 114.95 seconds
+Cart Items: 1
+Final Total: $12.00
+Final State: order_completed
+
+=== FULL TRANSCRIPT ===
+[0.00s] SYSTEM: Voice ordering session started
+[0.80s] SYSTEM: State changed: greeting → agent_listening
+[3.19s] SYSTEM: State changed: agent_listening → agent_speaking
+[5.47s] SYSTEM: State changed: agent_speaking → agent_listening
+[7.04s] CUSTOMER: Thank you.
+[7.07s] AGENT: Session started - greeting sent
+[9.06s] SYSTEM: State changed: agent_listening → agent_speaking
+[9.11s] SYSTEM: State changed: agent_speaking → agent_listening
+[12.42s] CUSTOMER: All right
+[13.78s] CUSTOMER: Can I order a breakfast?
+[15.75s] SYSTEM: State changed: agent_listening → agent_speaking
+[28.72s] SYSTEM: State changed: agent_speaking → agent_listening
+[33.07s] CUSTOMER: Uh, yeah, I'll get the omelet.
+[35.01s] SYSTEM: State changed: agent_listening → agent_speaking
+[44.96s] SYSTEM: State changed: agent_speaking → agent_listening
+[49.17s] CUSTOMER: Nyah.
+[50.90s] SYSTEM: State changed: agent_listening → agent_speaking
+[56.79s] SYSTEM: State changed: agent_speaking → agent_listening
+[62.00s] CUSTOMER: Uh, no.
+[63.55s] SYSTEM: State changed: agent_listening → agent_speaking
+[66.64s] SYSTEM: State changed: agent_speaking → agent_listening
+[72.70s] CUSTOMER: Yeah, could I get a
+[74.83s] SYSTEM: State changed: agent_listening → agent_speaking
+[74.96s] CUSTOMER: a sunrise croissant
+[74.97s] SYSTEM: State changed: agent_speaking → agent_listening
+[76.40s] SYSTEM: State changed: agent_listening → agent_speaking
+[83.09s] SYSTEM: State changed: agent_speaking → agent_listening
+[86.36s] CUSTOMER: Nah.
+[87.77s] SYSTEM: State changed: agent_listening → agent_speaking
+[92.35s] SYSTEM: State changed: agent_speaking → agent_listening
+[97.91s] CUSTOMER: Yeah.
+[99.24s] AGENT: Added 1 Sunrise Croissant for $12.00. What else?
+[99.24s] SYSTEM: State changed: agent_listening → adding_items
+[100.54s] SYSTEM: State changed: adding_items → agent_speaking
+[104.89s] SYSTEM: State changed: agent_speaking → agent_listening
+[113.71s] CUSTOMER: That'll be all.
+[114.95s] AGENT: Perfect! Your order total is $13.17. We'll have it ready in 10-15 minutes. Your order has been confirmed and this call will now end. Thank you for choosing QBeatAI!
+[114.95s] SYSTEM: State changed: agent_listening → order_completed
+
+=== END TRANSCRIPT ===
+
+[2025-09-30 09:52:07] [INFO] qbeatai_agent: Scheduling session disconnect in 5.0 seconds
+[2025-09-30 09:52:08] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: order_completed → agent_speaking
+[2025-09-30 09:52:12] [INFO] qbeatai_agent: Initiating graceful session disconnect
+[2025-09-30 09:52:13] [INFO] qbeatai_agent: Successfully disconnected from room
+[2025-09-30 09:52:13] [ERROR] qbeatai_agent: Error during session disconnect: object NoneType can't be used in 'await' expression
+[2025-09-30 17:22:10] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 17:22:10] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 17:22:10] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 17:22:10] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 17:22:10] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 17:22:10] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 17:22:10] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: greeting → agent_listening
+[2025-09-30 17:22:11] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: greeting → agent_listening
+[2025-09-30 17:22:11] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 17:22:11] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 17:22:11] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 17:22:12] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: greeting → agent_listening
+[2025-09-30 17:22:13] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:22:18] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:22:18] [INFO] qbeatai_agent: TRANSCRIPT [AGENT] Session started - greeting sent
+[2025-09-30 17:22:25] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Yeah, can I explore the lunch menu?
+[2025-09-30 17:22:30] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:22:43] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:22:48] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Yeah, could I get that second option?
+[2025-09-30 17:22:51] [INFO] qbeatai_agent: Getting menu info - section: lunch, item_name: Classic Caesar
+[2025-09-30 17:22:51] [WARNING] qbeatai_agent: No menu item found for: 'Classic Caesar'
+[2025-09-30 17:22:51] [WARNING] qbeatai_agent: Item not found for menu info: Classic Caesar
+[2025-09-30 17:22:52] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:22:59] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:23:03] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Cobb salad, let's do it.
+[2025-09-30 17:23:06] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:23:15] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:23:20] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Uh, yes please.
+[2025-09-30 17:23:21] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:23:26] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:23:31] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Yes.
+[2025-09-30 17:23:32] [INFO] qbeatai_agent: Adding item to cart: Cobb Salad, quantity: 1, addons: ['dressing']
+[2025-09-30 17:23:32] [WARNING] qbeatai_agent: No matching addons found for: ['dressing']
+[2025-09-30 17:23:32] [INFO] qbeatai_agent: Created cart item: QBeatAI Cobb Salad x1 = $15.00
+[2025-09-30 17:23:33] [INFO] qbeatai_agent: Cart sync successful
+[2025-09-30 17:23:33] [INFO] qbeatai_agent: Cart add successful: Added 1 QBeatAI Cobb Salad for $15.00. What else?
+[2025-09-30 17:23:33] [INFO] qbeatai_agent: TRANSCRIPT [AGENT] Added 1 QBeatAI Cobb Salad for $15.00. What else?
+[2025-09-30 17:23:33] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → adding_items
+[2025-09-30 17:23:34] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: adding_items → agent_speaking
+[2025-09-30 17:23:39] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:23:44] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] That'll be all.
+[2025-09-30 17:23:49] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:23:51] [INFO] qbeatai_agent: Finalizing order
+[2025-09-30 17:23:51] [INFO] qbeatai_agent: Order totals - Subtotal: $15.00, Tax: $1.46, Final: $16.46
+[2025-09-30 17:23:51] [INFO] qbeatai_agent: Cart contents: 1 items: ['QBeatAI Cobb Salad']
+[2025-09-30 17:23:51] [INFO] qbeatai_agent: Submitting order to backend
+[2025-09-30 17:23:51] [INFO] qbeatai_agent: Submitting order to: http://localhost:3000
+[2025-09-30 17:23:51] [INFO] qbeatai_agent: Order data: 1 items, total: $16.46
+[2025-09-30 17:23:52] [INFO] qbeatai_agent: Order submission response status: 500
+[2025-09-30 17:23:52] [INFO] qbeatai_agent: Order submitted successfully
+[2025-09-30 17:23:52] [INFO] qbeatai_agent: Notifying frontend of order completion
+[2025-09-30 17:23:52] [INFO] qbeatai_agent: Order completion notification sent
+[2025-09-30 17:23:52] [INFO] qbeatai_agent: Order finalized successfully: Perfect! Your order total is $16.46. We'll have it ready in 10-15 minutes. Your order has been confirmed and this call will now end. Thank you for choosing QBeatAI!
+[2025-09-30 17:23:52] [INFO] qbeatai_agent: TRANSCRIPT [AGENT] Perfect! Your order total is $16.46. We'll have it ready in 10-15 minutes. Your order has been confirmed and this call will now end. Thank you for choosing QBeatAI!
+[2025-09-30 17:23:52] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → order_completed
+[2025-09-30 17:23:52] [INFO] qbeatai_agent: 
+=== CONVERSATION SUMMARY ===
+Duration: 101.52 seconds
+Cart Items: 1
+Final Total: $15.00
+Final State: order_completed
+
+=== FULL TRANSCRIPT ===
+[0.00s] SYSTEM: Voice ordering session started
+[0.94s] SYSTEM: State changed: greeting → agent_listening
+[2.92s] SYSTEM: State changed: agent_listening → agent_speaking
+[7.47s] SYSTEM: State changed: agent_speaking → agent_listening
+[7.47s] AGENT: Session started - greeting sent
+[14.61s] CUSTOMER: Yeah, can I explore the lunch menu?
+[20.03s] SYSTEM: State changed: agent_listening → agent_speaking
+[32.53s] SYSTEM: State changed: agent_speaking → agent_listening
+[38.22s] CUSTOMER: Yeah, could I get that second option?
+[42.01s] SYSTEM: State changed: agent_listening → agent_speaking
+[48.61s] SYSTEM: State changed: agent_speaking → agent_listening
+[53.26s] CUSTOMER: Cobb salad, let's do it.
+[55.39s] SYSTEM: State changed: agent_listening → agent_speaking
+[64.54s] SYSTEM: State changed: agent_speaking → agent_listening
+[69.49s] CUSTOMER: Uh, yes please.
+[70.60s] SYSTEM: State changed: agent_listening → agent_speaking
+[76.18s] SYSTEM: State changed: agent_speaking → agent_listening
+[80.38s] CUSTOMER: Yes.
+[82.38s] AGENT: Added 1 QBeatAI Cobb Salad for $15.00. What else?
+[82.38s] SYSTEM: State changed: agent_listening → adding_items
+[83.49s] SYSTEM: State changed: adding_items → agent_speaking
+[89.25s] SYSTEM: State changed: agent_speaking → agent_listening
+[94.09s] CUSTOMER: That'll be all.
+[98.50s] SYSTEM: State changed: agent_listening → agent_speaking
+[101.52s] AGENT: Perfect! Your order total is $16.46. We'll have it ready in 10-15 minutes. Your order has been confirmed and this call will now end. Thank you for choosing QBeatAI!
+[101.52s] SYSTEM: State changed: agent_speaking → order_completed
+
+=== END TRANSCRIPT ===
+
+[2025-09-30 17:23:52] [INFO] qbeatai_agent: Scheduling session disconnect in 5.0 seconds
+[2025-09-30 17:23:55] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: order_completed → agent_speaking
+[2025-09-30 17:23:57] [INFO] qbeatai_agent: Initiating graceful session disconnect
+[2025-09-30 17:23:57] [INFO] qbeatai_agent: Successfully disconnected from room
+[2025-09-30 17:23:57] [INFO] qbeatai_agent: Job context shutdown initiated
+[2025-09-30 17:23:57] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:27:24] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 17:27:24] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 17:27:24] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 17:27:25] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: greeting → agent_listening
+[2025-09-30 17:27:46] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 17:27:46] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 17:27:46] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 17:27:47] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: greeting → agent_listening
+[2025-09-30 17:28:29] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 17:28:29] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 17:28:29] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 17:28:30] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: greeting → agent_listening
+[2025-09-30 17:30:06] [INFO] qbeatai_agent: Initializing QBeatVoiceAgent
+[2025-09-30 17:30:06] [INFO] qbeatai_agent: QBeatVoiceAgent initialized with empty cart and greeting state
+[2025-09-30 17:30:06] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] Voice ordering session started
+[2025-09-30 17:30:07] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: greeting → agent_listening
+[2025-09-30 17:30:08] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:30:12] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:30:12] [INFO] qbeatai_agent: TRANSCRIPT [AGENT] Session started - greeting sent
+[2025-09-30 17:30:18] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Uh, yeah, I'm interested in.
+[2025-09-30 17:30:20] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:30:20] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Lunch.
+[2025-09-30 17:30:20] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:30:22] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:30:34] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:30:44] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Uh, yeah, could I...
+[2025-09-30 17:30:45] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:30:45] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Just order the Cobb salad, please.
+[2025-09-30 17:30:46] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:30:47] [INFO] qbeatai_agent: Getting menu info - section: lunch, item_name: Cobb Salad
+[2025-09-30 17:30:47] [INFO] qbeatai_agent: Found item info: QBeatAI Cobb Salad
+[2025-09-30 17:30:49] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:30:57] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:31:02] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] No, thank you.
+[2025-09-30 17:31:03] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → agent_speaking
+[2025-09-30 17:31:07] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:31:21] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] Yeah.
+[2025-09-30 17:31:23] [INFO] qbeatai_agent: Adding item to cart: Cobb Salad, quantity: 1, addons: None
+[2025-09-30 17:31:23] [INFO] qbeatai_agent: Created cart item: QBeatAI Cobb Salad x1 = $15.00
+[2025-09-30 17:31:23] [INFO] qbeatai_agent: Cart sync successful
+[2025-09-30 17:31:23] [INFO] qbeatai_agent: Cart add successful: Added 1 QBeatAI Cobb Salad for $15.00. What else?
+[2025-09-30 17:31:23] [INFO] qbeatai_agent: TRANSCRIPT [AGENT] Added 1 QBeatAI Cobb Salad for $15.00. What else?
+[2025-09-30 17:31:23] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → adding_items
+[2025-09-30 17:31:26] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: adding_items → agent_speaking
+[2025-09-30 17:31:31] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening
+[2025-09-30 17:32:02] [INFO] qbeatai_agent: TRANSCRIPT [CUSTOMER] There we are.
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Finalizing order
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Order totals - Subtotal: $15.00, Tax: $1.46, Final: $16.46
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Cart contents: 1 items: ['QBeatAI Cobb Salad']
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Submitting order to backend
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Submitting order to: http://localhost:3000
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Order data: 1 items, total: $16.46
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Order submission response status: 500
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Order submitted successfully
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Notifying frontend of order completion
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Order completion notification sent
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Order finalized successfully: Perfect! Your order total is $16.46. We'll have it ready in 10-15 minutes. Your order has been confirmed and this call will now end. Thank you for choosing QBeatAI!
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: TRANSCRIPT [AGENT] Perfect! Your order total is $16.46. We'll have it ready in 10-15 minutes. Your order has been confirmed and this call will now end. Thank you for choosing QBeatAI!
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_listening → order_completed
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: 
+=== CONVERSATION SUMMARY ===
+Duration: 118.75 seconds
+Cart Items: 1
+Final Total: $15.00
+Final State: order_completed
+
+=== FULL TRANSCRIPT ===
+[0.00s] SYSTEM: Voice ordering session started
+[1.07s] SYSTEM: State changed: greeting → agent_listening
+[2.24s] SYSTEM: State changed: agent_listening → agent_speaking
+[6.17s] SYSTEM: State changed: agent_speaking → agent_listening
+[6.17s] AGENT: Session started - greeting sent
+[12.81s] CUSTOMER: Uh, yeah, I'm interested in.
+[14.01s] SYSTEM: State changed: agent_listening → agent_speaking
+[14.50s] CUSTOMER: Lunch.
+[14.51s] SYSTEM: State changed: agent_speaking → agent_listening
+[16.11s] SYSTEM: State changed: agent_listening → agent_speaking
+[28.52s] SYSTEM: State changed: agent_speaking → agent_listening
+[38.68s] CUSTOMER: Uh, yeah, could I...
+[39.78s] SYSTEM: State changed: agent_listening → agent_speaking
+[39.88s] CUSTOMER: Just order the Cobb salad, please.
+[39.96s] SYSTEM: State changed: agent_speaking → agent_listening
+[43.22s] SYSTEM: State changed: agent_listening → agent_speaking
+[51.26s] SYSTEM: State changed: agent_speaking → agent_listening
+[55.94s] CUSTOMER: No, thank you.
+[57.08s] SYSTEM: State changed: agent_listening → agent_speaking
+[61.68s] SYSTEM: State changed: agent_speaking → agent_listening
+[75.18s] CUSTOMER: Yeah.
+[77.91s] AGENT: Added 1 QBeatAI Cobb Salad for $15.00. What else?
+[77.91s] SYSTEM: State changed: agent_listening → adding_items
+[80.21s] SYSTEM: State changed: adding_items → agent_speaking
+[85.09s] SYSTEM: State changed: agent_speaking → agent_listening
+[116.68s] CUSTOMER: There we are.
+[118.75s] AGENT: Perfect! Your order total is $16.46. We'll have it ready in 10-15 minutes. Your order has been confirmed and this call will now end. Thank you for choosing QBeatAI!
+[118.75s] SYSTEM: State changed: agent_listening → order_completed
+
+=== END TRANSCRIPT ===
+
+[2025-09-30 17:32:04] [INFO] qbeatai_agent: Scheduling session disconnect in 5.0 seconds
+[2025-09-30 17:32:06] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: order_completed → agent_speaking
+[2025-09-30 17:32:09] [INFO] qbeatai_agent: Initiating graceful session disconnect
+[2025-09-30 17:32:09] [INFO] qbeatai_agent: Successfully disconnected from room
+[2025-09-30 17:32:09] [INFO] qbeatai_agent: Job context shutdown initiated
+[2025-09-30 17:32:09] [INFO] qbeatai_agent: TRANSCRIPT [SYSTEM] State changed: agent_speaking → agent_listening

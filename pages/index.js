@@ -4,12 +4,15 @@ import { menuData } from '../data/menu'
 import CategoryTabs from '../components/CategoryTabs'
 import MenuItem from '../components/MenuItem'
 import Cart from '../components/Cart'
+import VoiceOrderButton from '../components/VoiceOrderButton'
+import VoiceOrderInterface from '../components/VoiceOrderInterface'
 
 export default function Home () {
   const [activeCategory, setActiveCategory] = useState('breakfast')
   const [cart, setCart] = useState([])
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [orderSubmitted, setOrderSubmitted] = useState(false)
+  const [voiceOrderOpen, setVoiceOrderOpen] = useState(false)
 
   const addToCart = (item) => {
     const cartItem = {
@@ -161,6 +164,19 @@ export default function Home () {
           isSubmitting={isSubmitting}
         />
       </div>
+
+      {/* Voice Ordering Components */}
+      <VoiceOrderButton
+        onClick={() => setVoiceOrderOpen(!voiceOrderOpen)}
+        isActive={voiceOrderOpen}
+      />
+
+      <VoiceOrderInterface
+        isOpen={voiceOrderOpen}
+        onClose={() => setVoiceOrderOpen(false)}
+        currentCart={cart}
+        onCartUpdate={setCart}
+      />
     </div>
   )
 }

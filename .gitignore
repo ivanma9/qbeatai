@@ -28,3 +28,6 @@ yarn-error.log*
 # OS generated files
 .env-example.txt
 SETUP.md
+
+
+*.env

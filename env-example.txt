@@ -4,11 +4,26 @@ EMAIL_USER=your-gmail@gmail.com
 EMAIL_PASS=your-app-password
 EMAIL_TO=orders@chaupain.com
 
+# LiveKit Configuration (for Voice Ordering - Phase 2)
+LIVEKIT_API_KEY=your-livekit-api-key
+LIVEKIT_API_SECRET=your-livekit-secret-key
+LIVEKIT_URL=wss://your-livekit-cloud-url.com
+NEXT_PUBLIC_LIVEKIT_URL=wss://your-livekit-cloud-url.com
+
+# Groq API (for fast Whisper STT - Phase 2)
+GROQ_API_KEY=gsk_your-groq-api-key
+
+# OpenAI (for GPT-4 + TTS - Phase 2)
+OPENAI_API_KEY=sk-your-openai-key
+
 # Instructions:
 # 1. Copy this file to .env.local
-# 2. Replace the values with your actual email credentials
+# 2. Replace the values with your actual credentials
 # 3. For Gmail, you'll need to generate an app-specific password:
 #    - Go to Google Account settings
 #    - Enable 2-factor authentication
 #    - Generate an app password for "Mail"
 #    - Use that password (not your regular password)
+# 4. For LiveKit: Sign up at https://cloud.livekit.io (free tier: 10,000 minutes/month)
+# 5. For Groq: Get free API key at https://console.groq.com/keys
+# 6. For OpenAI: Get API key at https://platform.openai.com/api-keys

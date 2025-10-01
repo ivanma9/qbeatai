@@ -1,0 +1,7 @@
+LIVEKIT_API_KEY=your-livekit-api-key
+LIVEKIT_API_SECRET=your-livekit-secret-key
+LIVEKIT_URL=ws://localhost:7880
+GROQ_API_KEY=gsk_your-groq-api-key
+OPENAI_API_KEY=sk-your-openai-key
+CARTESIA_API_KEY=your-cartesia-api-key
+WEBAPP_URL=http://localhost:3000
